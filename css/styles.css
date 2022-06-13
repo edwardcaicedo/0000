@@ -1,0 +1,135 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.site-header {
+    padding: 20px 0;
+}
+
+.fw300 {
+    text-align: center;
+}
+
+.font {
+    font-weight: 800;
+}
+
+.may {
+    text-transform: uppercase;
+}
+
+
+/* viajes */
+
+.viajes {
+    height: 15rem;
+    border: 1px solid gray;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+
+/* navegacio */
+
+.barra {
+    background-color: #db008d;
+}
+
+.navegacion-principal a {
+    text-decoration: none;
+    color: black;
+    padding-bottom: 1rem;
+}
+
+.navegacion-principal a:hover {
+    color: violet;
+}
+
+.barra nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width:750px) {
+    .barra nav {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+
+/* botones */
+
+.boton {
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 1rem 3rem;
+    display: inline-block;
+    text-align: center;
+    border: none;
+}
+
+.boton-violeta {
+    background-color: #db008d;
+    text-align: center;
+    border: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.boton-verde {
+    background-color: teal;
+}
+
+.submit {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/* main */
+
+.contenedor-superior {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenido-superior {
+    flex-basis: calc(52.5% - 2rem);
+    padding-right: 1rem;
+}
+
+
+/* formulario */
+
+fieldset {
+    border: none;
+}
+
+legend {
+    text-align: center;
+    color: #db008d;
+}
+
+input:not([type="submit"]),
+label {
+    display: block;
+    width: 100%;
+}
